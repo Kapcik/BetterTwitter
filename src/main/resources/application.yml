@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/better-twitter
+    username: better
+    password: twitter
+  jpa:
+    hibernate.ddl-auto: create-drop
+
+server:
+  port: 4000
